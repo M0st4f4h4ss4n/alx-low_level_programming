@@ -10,8 +10,11 @@
 
 int main(void)
 {
-	for (i = 97;i < 122; i++){
-	putchar(i);
+	int i = 97;
+	/**Declerations End**/
+	for (; i < 122; i++)
+	{
+		putchar(i);
 	}
 	putchar("\n")
 	return (0);
