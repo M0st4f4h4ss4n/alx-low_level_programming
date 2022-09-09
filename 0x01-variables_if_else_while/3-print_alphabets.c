@@ -19,8 +19,8 @@ int main(void)
 	}
 	for (; j <= 90; j++)
         {
-                putchar(j);
-        }
+		putchar(j);
+	}
 	putchar(10);
 	return (0);
 }
