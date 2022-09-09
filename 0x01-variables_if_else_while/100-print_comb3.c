@@ -17,12 +17,15 @@ int main(void)
 	{
 		for (j = 0; j < 9; j++)
 		{
-			putchar(i + 48);
-			putchar(j + 48);
-			if (i != 56)
+			if (i != j && i < j)
 			{
-				putchar(44);
-				putchar(32);
+				putchar(i + 48);
+				putchar(j + 48);
+				if (i != 56)
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 		}
 	}
