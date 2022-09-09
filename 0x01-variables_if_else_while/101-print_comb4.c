@@ -16,9 +16,9 @@ int main(void)
 	/**Declerations End**/
 	for (; i <= 9; i++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (; j <= 9; j++)
 		{
-			for (k = 0; k <=0; k++)
+			for (; k <= 9; k++)
 			{
 			if (i != j && i != k && i < j && j == k)
 			{
