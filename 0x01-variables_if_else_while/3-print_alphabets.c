@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (; i <= 90; i++)
+	for (; j <= 90; i++)
         {
                 putchar(i);
         }
