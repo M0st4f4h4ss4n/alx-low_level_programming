@@ -28,6 +28,9 @@ int main(void)
 	} else if (digit > 5)
 	{
 		printf("and is greater than 5\n");
+	} else if (digit == 0)
+	{
+		printf("and is 0\n");
 	}
 	return (0);
 }
