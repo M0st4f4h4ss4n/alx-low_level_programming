@@ -20,17 +20,32 @@ int main(void)
 		{
 			for (; k <= 9; k++)
 			{
-			if (i != j != k  && i < j < k)
+			if (i == j)
+			{
+				continue;
+			} else if (i == k)
+			{
+				continue;
+			} else if (j == k)
+			{
+				continue;
+			} else if (k < j)
+			{
+				continue;
+			} else if (j < i)
+			{
+				continue;
+			} else
 			{
 				putchar(i + 48);
 				putchar(j + 48);
 				putchar(k + 48);
 				if (i != 7)
-					{
-						putchar(44);
-						putchar(32);
-					}
+				{
+					putchar(44);
+					putchar(32);
 				}
+			}
 			}
 		}
 	}
