@@ -15,7 +15,7 @@ int main(void)
 	/**Declerations End**/
 	for (; i <= 9; i++)
 	{
-		for (j = i; j < 9; j++)
+		for (j = 0; j < 9; j++)
 		{
 			putchar(i + 48);
 			putchar(j + 48);
