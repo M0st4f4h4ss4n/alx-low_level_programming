@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <time.h>
+#include <cstdlib>
+#include <iostream>
+#include <ctime>
+
 /**
  * main - Entry Point
  *
