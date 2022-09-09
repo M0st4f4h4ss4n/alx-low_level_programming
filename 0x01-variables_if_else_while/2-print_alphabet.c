@@ -12,7 +12,7 @@ int main(void)
 {
 	int i = 97;
 	/**Declerations End**/
-	for (; i < 122; i++)
+	for (; i <= 122; i++)
 	{
 		putchar(i);
 	}
