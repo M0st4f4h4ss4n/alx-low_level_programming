@@ -14,7 +14,7 @@ int main(void)
 	/**Declerations End**/
 	for (; i <= 122; i++)
 	{
-		if (i != 113 AND i != 101)
+		if (i != 113 && i != 101)
 		putchar(i);
 	}
 	putchar(10);
