@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+/**
+ * main - Entry Point
+ *
+ *
+ * Return: 0 Always (Success)
+ */
+
+
+int main(void)
+{
+	int i = 0;
+	int j = 0;
+	/**Declerations End**/
+	for (; i <= 9; i++)
+	{
+		for (j = i; j < 9; j++)
+		{
+			putchar(i + 48);
+			putchar(j + 48);
+			if (i != 56)
+			{
+				putchar(44);
+				putchar(32);
+			}
+		}
+	}
+	putchar(10);
+	return (0);
+}
