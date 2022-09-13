@@ -1,15 +1,19 @@
-#include "_putchar.c"
+#include "main.h"
+
 /**
- * print_alphabet - prints the english alphabet from a-z.
- * Return: Nothing.
+ * print_alphabet - print alphabet of letters
+ *
+ * Return: void
  */
+
 void print_alphabet(void)
 {
-	char c;
+	int i;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (i = 'a'; i <= 'z'; i++)
+
 	{
-		_putchar(c);
+		_putchar(i);
 	}
 	_putchar('\n');
 }

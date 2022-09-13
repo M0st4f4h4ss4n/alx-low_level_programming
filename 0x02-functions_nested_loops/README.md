@@ -1,47 +1,35 @@
-# Holberton School - 0x02-functions_nested_loops
-Basics of nested loops and 2D loops
-## New commands / functions used:
-``#include``
-## Helpful Links
-* [Nested While Loops youtube](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
-* [Overview of the Anatomy of a Function, Youtube](https://www.youtube.com/watch?v=qMlnFwYdqIw)
-* [The purpose of a function prototype](http://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
-* [What are Header Files?](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
+File 0-holberton.c is a program that prints Holberton, followed by a new line.
 
-## Description of Files
-<h6>0-holberton.c</h6>
-Prints ``Holberton`` followed by a new line, and returns 0.
-<h6>1-alphabet.c</h6>
-Prints the lowercase letters of the alphabet followed by a new line.
-<h6>2-print_alphabet_x10.c</h6>
-Prints the alphabet ten times, using ``_putchar`` only twice.
-<h6>3-islower.c</h6>
-Checks for a lowercase character. Recreation of ``islower``
-<h6>4-isalpha.c</h6>
-Checks for an alphabetic character. Recreation of ``isalpha``
-<h6>5-sign.c</h6>
-Prints the sign of a number
-<h6>6-abs.c</h6>
-Computes the absolute value of an integer
-<h6>7-print_last_digit.c</h6>
-Prints the last digit of a number
-<h6>8-24_hours.c</h6>
-Prints all times from 00:00 to 23:59
-<h6>9-times_table.c</h6>
-Prints the 9 times table, starting with zero
-<h6>10-add.c</h6>
-Adds 2 integers and returns the result
-<h6>11-print_to_98.c</h6>
-Prints all numbers from n to 98
-<h6>100-times_table.c</h6>
-Prints the n times table, starting with zero
-<h6>101-natural.c</h6>
-Computes and prints the sum of all the multiples of 3 or 5 below 1024
-<h6>102-fibonacci.c</h6>
-Prints the first 50 Fibonacci numbers starting with 1 and 2
-<h6>103-fibonacci.c</h6>
-Computes and prints the sum of all even Fibonacci numbers under 4 million.
-<h6>104-fibonacci.c</h6>
-Computes and prints the first 98 Fibonacci numbers
-<h6>105-test.c</h6>
-Computes and prints the first n Fibonacci numbers
+File 1-alphabet.c is a function that prints the alphabet, in lowercase, followed by a new line.
+
+File 2-print_alphabet_x10.c is a function that prints 10 times the alphabet, in lowercase, followed by a new line.
+
+File 3-islower.c is a function that checks for lowercase character.
+
+File 4-isalpha.c is a function that checks for alphabetic character.
+
+File 5-sign.c is a function that prints the sign of a number.
+
+File 6-abs.c is a function that computes the absolute value of an integer.
+
+File 7-print_last_digit.c is a function that prints the last digit of a number.
+
+File 8-24_hours.c is a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+
+File 10-add.c is a function that adds two integers and returns the result.
+
+File 11-print_to_98.c is a function that prints all natural numbers from n to 98, followed by a new line.
+
+File 100-times_table.c is a function that prints the n times table, starting with 0.
+
+File 101-natural.c is a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+
+File 102-fibonacci.c is a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+File 103-fibonacci.c is a program that finds and prints the sum of the even-valued terms of the Fibonacci suite under 4000000, followed by a new line.
+
+File 104-fibonacci.c is a program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+File _putchar.c contains the _putchar() function definition.
+
+File holberton.h is the header file containing all the function prototypes used in this project.
