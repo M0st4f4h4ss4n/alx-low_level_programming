@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "_putchar.c"
 /**
  * main - prints the string "_putchar" from a character array.
  * Return: 0 on success.
@@ -10,8 +10,8 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		putchar(c[i]);
+		_putchar(c[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
