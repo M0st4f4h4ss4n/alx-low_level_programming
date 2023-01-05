@@ -1,32 +1,47 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - print triple combos
  *
- * Return: always 0
+ * Description: print triple digit combos
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int c, c_two, c_three;
+	int i, j, k;
 
-	for (c = 48; c <= 55; c++)
+	i = 48;
+	j = 48;
+	k = 48;
+
+	while (i < 58)
 	{
-		for (c_two = c + 1; c_two <= 56; c_two++)
+		j = i + 1;
+		while (j < 58)
 		{
-			for (c_three = c_two + 1; c_three <= 57; c_three++)
-			{
-				putchar(c);
-				putchar(c_two);
-				putchar(c_three);
-				if (c != 55 || c_two != 56 || c_three != 57)
+			k = j + 1;
+				while (k < 58)
 				{
-					putchar(44);
-					putchar(32);
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					if (i < 55 || j < 56 || k < 57)
+					{
+						putchar(44);
+						putchar(32);
+					}
+					k++;
 				}
-			}
+
+			j++;
 		}
+
+		i++;
 	}
 
 	putchar(10);
+
 	return (0);
 }

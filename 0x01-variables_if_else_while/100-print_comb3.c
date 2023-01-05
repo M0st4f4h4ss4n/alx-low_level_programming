@@ -1,34 +1,40 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
+ * main - print double digit combos
  *
+ * Description: print double digit combos
  *
- * Return: 0 Always (Success)
+ * Return: Always 0 (Success)
  */
-
 
 int main(void)
 {
-	int i = 0;
-	int j = 0;
-	/**Declerations End**/
-	for (; i <= 9; i++)
+	int i, j;
+
+	i = 48;
+	j = 48;
+
+	while (i < 58)
 	{
-		for (j = 0; j <= 9; j++)
+		j = i + 1;
+		while (j < 58)
 		{
-			if (i != j && i < j)
+			putchar(i);
+			putchar(j);
+
+			if (i < 56 || j < 57)
 			{
-				putchar(i + 48);
-				putchar(j + 48);
-				if (i != 8)
-				{
-					putchar(44);
-					putchar(32);
-				}
+				putchar(44);
+				putchar(32);
 			}
+			j++;
 		}
+
+		i++;
 	}
+
 	putchar(10);
+
 	return (0);
 }

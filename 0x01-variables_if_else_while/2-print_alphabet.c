@@ -1,21 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
+ * main - print the letters of the alphabet
  *
+ * Description: print the letters of the alphabet
  *
- * Return: 0 Always (Success)
+ * Return: Always 0 (Success)
  */
-
 
 int main(void)
 {
 	int i = 97;
-	/**Declerations End**/
-	for (; i <= 122; i++)
+
+	while (i < 123)
 	{
 		putchar(i);
+		i++;
 	}
 	putchar(10);
+
 	return (0);
 }

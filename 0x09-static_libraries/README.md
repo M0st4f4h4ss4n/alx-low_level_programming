@@ -5,7 +5,7 @@ using them with `ar`, `ranlib`, and `nm`.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by ALX.
+* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Tasks :page_with_curl:
 
@@ -34,7 +34,7 @@ using them with `ar`, `ranlib`, and `nm`.
     * `char *_strstr(char *haystack, char *needle);`
 
   * [main.h](./main.h): Header file containing the prototypes of all functions
-  included in `libmy.a`.
+  included in `libholberton.a`.
 
 * **1. Without libraries what have we? We have no past and no future**
   * [create_static_lib.sh](./create_static_lib.sh): Bash script that creates a static
