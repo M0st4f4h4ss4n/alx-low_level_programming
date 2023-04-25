@@ -1,26 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - print single digit numbers
- *
- * Descripton: print single digit numbers
- *
- * Return: Always 0 (Success)
+ *main -> assign a random number to the variable n each time it is executed
+ *and print the last digit of the number stored in the variable n
+ *Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int i;
+int n;
 
-	i = 48;
-
-	while (i < 58)
-	{
-		putchar(i);
-		i++;
-	}
-
-	putchar(10);
-
-	return (0);
+for (n = 0; n < 10; n++)
+{
+printf("%d", n);
+}
+printf("\n");
+return (0);
 }

@@ -1,33 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - sums nultplies of 3 or 5
+ * main - Lists all the natural numbers below 1024 (excluded)
+ *        that are multiples of 3 or 5.
  *
- * Description: multiples between 0 and 1024
- * Return: Always(0) Success
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	int start_num, end_num, total;
+	int i, sum = 0;
 
-	end_num = 1024;
-	total = 0;
-
-	for (start_num = 0; start_num < end_num; start_num++)
+	for (i = 0; i < 1024; i++)
 	{
-		if ((start_num % 3 == 0) || (start_num % 5 == 0))
-		{
-			total = total + start_num;
-		}
-		else
-		{
-			continue;
-		}
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
 
-	printf("%d", total);
-	printf("\n");
+	printf("%d\n", sum);
 
 	return (0);
 }
